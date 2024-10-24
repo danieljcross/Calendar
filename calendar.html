@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <script src="calendar_script.js"></script>
+
+</head>
+<body>
+    
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAx_AqO5duiA9RHRyhP89soIWDdqAqkmec",
+          authDomain: "modern-calendar-39143.firebaseapp.com",
+          projectId: "modern-calendar-39143",
+          storageBucket: "modern-calendar-39143.appspot.com",
+          messagingSenderId: "827266516577",
+          appId: "1:827266516577:web:f7ee8292eb5cfd28ef0c20",
+          measurementId: "G-3GNYQJ5C10"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+
+</body>
+</html>
